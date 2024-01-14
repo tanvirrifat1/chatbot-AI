@@ -51,7 +51,7 @@ function App() {
       </div>
       <div className="main">
         <div className="chats">
-          <div className="chat">
+          <div className="chat ">
             <img className="chatImg" src={user} alt="" />
             <p className="txt">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -60,7 +60,7 @@ function App() {
             </p>
           </div>
           {/*  */}
-          <div className="chat">
+          <div className="chat bot">
             <img className="chatImg" src={gptLogo} alt="" />
             <p className="txt">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
